@@ -2,20 +2,19 @@ import React from 'react'
 import './App.css';
 import {Link} from 'react-router-dom';
 
-function Nav() {
+function BottomNav() {
   const navStyle = {
-      color: "white",
-      textDecoration: "none"
+      color: "white"
   }
-
+  
   return (
-    <nav className='navBar top'>
-        <Link style={navStyle} to="/">
-          <h3>Logo</h3>
-        </Link>
+    <nav className='navBar bottom'>
         <ul className='navItems'>
           <Link style={navStyle} to="/about">
               <li>About</li>
+          </Link>
+          <Link style={navStyle} to="/">
+              <li>Main</li>
           </Link>
           <Link style={navStyle} to='/projects'>
             <li>Projects</li>
@@ -25,4 +24,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default BottomNav;

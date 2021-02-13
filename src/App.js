@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
+import BottomNav from './BottomNav';
 import Main from './Pages/Main';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
@@ -10,12 +11,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav/>
+        <Nav />
         <Switch>
           <Route path='/' exact component={Main} />
           <Route path='/about' component={About} />
           <Route path='/projects' component={Projects} />
         </Switch>
+        <BottomNav />
       </div>
     </Router>
   );

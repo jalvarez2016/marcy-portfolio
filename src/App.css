@@ -2,12 +2,28 @@
   text-align: center;
 }
 
+.Banner {
+  background-color: beige;
+}
+
+.Banner h3 {
+  background: no-repeat center center fixed; 
+  background-image: url("./Images/Headshot.PNG");
+	background-clip: text;
+	-webkit-background-clip: text;
+  font-size: 100px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navBar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 80px;
-  background-color: rgb(39, 173, 173);
+  min-height: 70px;
+  background-color: rgb(243, 218, 198);
   color: white
 }
 
@@ -17,4 +33,39 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.navBar ul a {
+  text-decoration: none;
+}
+
+.bottom ul{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .top h3 {
+    width: 100%
+  }
+
+  .top ul {
+    display: none;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .bottom ul {
+    display: flex;
+  }
+
+  .Banner h3 {
+    font-size: 80px;
+  }
+
+  .bottom .navItems{
+    width: 100%;
+    padding: 0px;
+  }
 }
