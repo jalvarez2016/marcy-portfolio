@@ -3,6 +3,7 @@ import '../App.css';
 import Banner from '../PageComponents/Banner'
 import About from '../PageComponents/About'
 import Skills from '../PageComponents/Skills'
+import Projects from '../PageComponents/ProjectsMini'
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
           <Banner />
           <About />
           <Skills />
+          <Projects />
       </div>
   );
 }

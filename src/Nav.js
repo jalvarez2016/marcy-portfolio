@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Nav() {
   const navStyle = {
-      color: "white",
+      color: "rgb(119, 48, 48)",
       textDecoration: "none"
   }
 

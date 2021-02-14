@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function BottomNav() {
   const navStyle = {
-      color: "white"
+      color: "rgb(119, 48, 48)"
   }
   
   return (

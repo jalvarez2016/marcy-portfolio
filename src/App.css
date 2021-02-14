@@ -1,3 +1,11 @@
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Projects-contianer::-webkit-scrollbar{
+  display: none;
+}
+
 .App {
   text-align: center;
 }
@@ -42,6 +50,21 @@
 .bottom ul{
   display: none;
 }
+
+.proj-icon {
+  margin: 10px;
+  border-radius: 50%
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+/* 
+.Project-Icon{
+  background-image: url("./Images/NewAsteriods.png");
+} */
 
 @media only screen and (max-width: 600px) {
   .top h3 {

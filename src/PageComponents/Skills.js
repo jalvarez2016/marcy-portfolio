@@ -21,14 +21,14 @@ function Skills() {
   
   return (
       <div style={skillsStyle} className="skills">
-        <h3 style={contentStyle}>My Skills</h3>
-        <p style={contentStyle}>
+        <h2 style={contentStyle}>My Skills</h2>
+        <div style={contentStyle}>
             <Skill ability='Javascript'/>
             <Skill ability='CSS'/>
             <Skill ability='HTML'/>
             <Skill ability='React' icon={ReactIcon}/>
             <Skill ability='React-Router' icon={ReactRouterIcon}/>
-        </p>
+        </div>
       </div>
   );
 }

@@ -24,9 +24,9 @@ function About() {
   
   return (
       <div style={aboutStyle} className="main-about">
-        <h3 style={contentStyle}>Intro</h3>
-        <p style={contentStyle}>
-            Well, hello there! Let me tell you a bit about myself:
+        <h2 style={contentStyle}>Intro</h2>
+        <div style={contentStyle}>
+            <p>Well, hello there! Let me tell you a bit about myself:</p>
             <ul>
                 <li>
                     I love developing applications that are both intuitive and tackle problems.
@@ -38,7 +38,7 @@ function About() {
             You may ask yourself, what could be motivating this guy? To which I respond, 
             I find coding to be incredibly fun, be it designing or solving problems.
             So you can think of it as a sort of perpetual motion machine.
-        </p>
+        </div>
       </div>
   );
 }
