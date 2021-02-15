@@ -21,11 +21,12 @@ function Projects() {
     marginTop: "10px",
     marginBottom: "10px",
     fontSize: "16px",
-    padding: "5px",
-    paddingLeft: "0px",
+    // padding: "5px",
+    // paddingLeft: "0px",
     display: "flex",
-    alignItems: "center",
-    width: "100%",
+    justifyContent: "flex-start",
+    // alignItems: "center",
+    // width: "100%",
     overflowY: "scroll",
   }
   
