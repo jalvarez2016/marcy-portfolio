@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 // import {Link} from 'react-router-dom';
 
-function Banner() {
+function Banner(props) {
   const bannerStyle = {
       color: "transparent",
       display: "flex",
@@ -14,7 +14,7 @@ function Banner() {
   
   return (
       <div style={bannerStyle} className="Banner">
-          <h3>Welcome</h3>
+          <h3>{props.content}</h3>
       </div>
   );
 }

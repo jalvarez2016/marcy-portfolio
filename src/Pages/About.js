@@ -1,11 +1,13 @@
 import React from 'react'
+import Banner from '../PageComponents/Banner'
+import Intro from '../AboutComponents/Intro'
 import '../App.css';
 
 function About() {
   return (
       <div>
-        <h1>About Pages</h1>
-
+        <Banner content={`About`}/>
+        <Intro />
       </div>
   );
 }

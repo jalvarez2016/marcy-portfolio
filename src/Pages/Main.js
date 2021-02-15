@@ -9,7 +9,7 @@ function Main() {
   return (
       <div className='main'>
           {/* <h1>Home</h1> */}
-          <Banner />
+          <Banner content={`Welcome`}/>
           <About />
           <Skills />
           <Projects />
