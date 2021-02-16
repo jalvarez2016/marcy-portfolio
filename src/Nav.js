@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Logo from './Images/Logo-Portfolio.png'
 import {Link} from 'react-router-dom';
 
 function Nav() {
@@ -8,10 +9,15 @@ function Nav() {
       textDecoration: "none"
   }
 
+  const logoStyle = {
+    height: "100px"
+  }
+
   return (
     <nav className='navBar top'>
         <Link style={navStyle} to="/">
-          <h3>Logo</h3>
+          {/* <h3>Logo</h3> */}
+          <img style={logoStyle} src={Logo} alt="Logo"/>
         </Link>
         <ul className='navItems'>
           <Link style={navStyle} to="/about">
